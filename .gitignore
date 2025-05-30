@@ -7,8 +7,12 @@
 # 3) 확장자 있는 파일만 다시 추적
 !*.*
 
-.vscode
 *.yml
 *.plist
 info.plist
 /*.dSYM
+
+# .vscode
+launch.json
+tasks.json
+c_cpp_properties.json
