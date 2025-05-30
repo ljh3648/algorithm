@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    char arr['Z' - 'A' + 1] = { 0 };
+    int arr['Z' - 'A' + 1] = { 0 };
     unsigned char a;
 
     while (a = fgetc(stdin)) {
@@ -21,7 +21,7 @@ int main(void) {
     }
 
     if (flag) printf("?\n");
-    else printf("%c\n", key);
+    else printf("%c", key);
 
     return 0;
 }
