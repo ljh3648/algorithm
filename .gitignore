@@ -16,3 +16,6 @@ info.plist
 launch.json
 tasks.json
 c_cpp_properties.json
+
+#개인정보 유출방지
+book/24/mystory.txt
