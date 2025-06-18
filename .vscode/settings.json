@@ -15,7 +15,8 @@
         "stddef.h": "c",
         "stdio.h": "c",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "random": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
