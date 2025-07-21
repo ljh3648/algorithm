@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//
 int n, k;
 char arr[200][200];
 int result[200][200] = {0};
