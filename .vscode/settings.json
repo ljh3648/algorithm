@@ -18,5 +18,6 @@
         "ostream": "cpp",
         "random": "c"
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.default.cppStandard": "c++17"
 }
