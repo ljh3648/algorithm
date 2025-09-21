@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
 
-bool f(int x){
-    int div = 
-    while(x > 1){
-        
+bool f(unsigned int n){
+    unsigned int x = 2;
+    
+    for (unsigned int i = 2; i * i <= n; i++) {
+        if (n % i == 0) return false;
     }
+
     return true;
 }
 
@@ -14,14 +16,16 @@ int main(void) {
     cin >> t;
 
     for(int i = 0; i < t; i++){
-        int n;
+        unsigned int n;
         cin >> n;
 
         while(true){
-            int x = n;
-            if(f(x)) break;
-            x++;
+            if(f(n)) break;
+            n++;
         }
+
+        if(n < 2) n = 2;
+        cout << n << endl;
     }
 
     return 0;
